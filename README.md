@@ -23,7 +23,7 @@
 
 A tool designed to accelerate the deployment of ForgeRock's Identity and Access Management (IAM) solution on any cloud platform, saving you time and effort.
 
-Our Midships Accelerators allow our customers to deploy ForgeRock onto their cloud faster and more securely. We deploy to all major Cloud Platforms, including GCP, AWS, Oracle, Azure and AliCloud, and our accelerator saves approximately 2-3 months of development efforts.
+Our Midships Accelerators allow our customers to deploy ForgeRock onto their kubernetes clouds faster and more securely. We deploy to all major Cloud Platforms, including GCP, AWS, Oracle, Azure and AliCloud, and our accelerator saves approximately 2-3 months of development efforts.
 
 Whether you're an enterprise looking to deploy IAM to the cloud or a service provider offering IAM as a service, the ForgeRock accelerator can help you streamline the deployment process, saving you time and effort.
 
@@ -34,14 +34,14 @@ Please contact us at sales@midships.io for further details of our solution and h
 * **Website**: www.midships.io 
 * **Email**: support@midships.io / sales@midships.io
 
-## Specifications
+## Specifications and architecture
 
 The Midships accelerator is composed of the following layers, arranged from the highest to the lower level:
 
 1. Fully automated deployment via a DevSecOps Pipeline
 2. ForgeRock Configuration parameterized for consistency between environments
-3. Hardened production-ready docker images
-4. Proven containerised architecture that is highly available (up to 99.999%)
+3. Hardened production-ready docker images, and deployment scripts
+4. Proven containerised architecture that is **highly available (up to 99.999%)**
 
 Our ForgeRock Accelerator supports two deployment types:
 
@@ -62,7 +62,7 @@ With the Midships Forgerock Accelerator, you will receive:
 * Parameterized configuration which is held in a structured manner within a secrets manager (default HashiCorp, but compatible with native secrets manager). This supports an XaaS deployment approach and ensures consistency between environments.
 * Detailed documentation.
 * Midships supported scripts that enable features such as rolling updates and auto-scaling.
-* UI to simplify changes to configuration including passwords, certificates and adding scripts / trees / realms, etc.
+* Supports Multiple Cluster, Region, and/or Cloud Service Providers.
 * Different levels of support available.
 
 ### Benefits of Everything-as-Code
