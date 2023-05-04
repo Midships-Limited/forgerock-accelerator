@@ -38,11 +38,10 @@ Please contact us at sales@midships.io for further details of our solution and h
 
 The Midships accelerator is composed of the following layers, arranged from the highest to the lower level:
 
-1. Simple UI to manage ForgeRock Configuration and Deployment to different environments
-2. Fully automated deployment via a DevSecOps Pipeline
-3. ForgeRock Configuration parameterized for consistency between environments
-4. Hardened production-ready docker images
-5. Proven containerised architecture that is highly available (up to 99.999%)
+1. Fully automated deployment via a DevSecOps Pipeline
+2. ForgeRock Configuration parameterized for consistency between environments
+3. Hardened production-ready docker images
+4. Proven containerised architecture that is highly available (up to 99.999%)
 
 Our ForgeRock Accelerator supports two deployment types:
 
@@ -59,7 +58,7 @@ Our ForgeRock Accelerator supports two deployment types:
 With the Midships Forgerock Accelerator, you will receive:
 
 * Production-ready docker images that are hardened at O/S, Middleware and Application level.
-* Gitlab and Jenkins scripts to deploy the ForgeRock stack to a Kubernetes cluster hosted on AWS, Azure, GCP AliCloud and Oracle Cloud.
+* CICD pipeline and scripts to deploy the ForgeRock stack to a Kubernetes cluster hosted on AWS, Azure, GCP AliCloud and Oracle Cloud.
 * Parameterized configuration which is held in a structured manner within a secrets manager (default HashiCorp, but compatible with native secrets manager). This supports an XaaS deployment approach and ensures consistency between environments.
 * Detailed documentation.
 * Midships supported scripts that enable features such as rolling updates and auto-scaling.
