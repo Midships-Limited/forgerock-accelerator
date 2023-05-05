@@ -40,7 +40,7 @@ The Midships accelerator is composed of the following layers, arranged from the 
 
 1. Fully automated deployment via a DevSecOps Pipeline
 2. ForgeRock Configuration parameterized for consistency between environments
-3. Hardened production-ready Docker images (AM,DS,IDM,IG) and Helm deployment scripts
+3. Hardened production-ready Docker images and Helm deployment scripts
 4. Proven containerised architecture that is **highly available (up to 99.999%)**
 
 Our ForgeRock Accelerator supports two deployment types:
