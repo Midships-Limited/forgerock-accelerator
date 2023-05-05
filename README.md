@@ -23,7 +23,7 @@
 
 A tool designed to accelerate the deployment of ForgeRock's Identity and Access Management (IAM) solution on any cloud platform, saving you time and effort.
 
-Our Midships Accelerators allow our customers to deploy ForgeRock onto their kubernetes clouds faster and more securely. We deploy to all major Cloud Platforms, including GCP, AWS, Oracle, Azure and AliCloud, and our accelerator saves approximately 2-3 months of development efforts.
+Our Midships Accelerators allow our customers to deploy ForgeRock onto their Kubernetes Cloud faster and more securely. We deploy to all major Cloud Platforms, including GCP, AWS, Oracle, Azure and AliCloud, and our accelerator saves approximately 2-3 months of development efforts.
 
 Whether you're an enterprise looking to deploy IAM to the cloud or a service provider offering IAM as a service, the ForgeRock accelerator can help you streamline the deployment process, saving you time and effort.
 
@@ -40,7 +40,7 @@ The Midships accelerator is composed of the following layers, arranged from the 
 
 1. Fully automated deployment via a DevSecOps Pipeline
 2. ForgeRock Configuration parameterized for consistency between environments
-3. Hardened production-ready docker images, and deployment scripts
+3. Hardened production-ready Docker images and Helm deployment scripts
 4. Proven containerised architecture that is **highly available (up to 99.999%)**
 
 Our ForgeRock Accelerator supports two deployment types:
